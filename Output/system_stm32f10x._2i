@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\usart -I ..\..\User\ESP8266 -I ..\..\User\OLED -I ..\..\SYSTEM\delay -I ..\..\SYSTEM\sys -I ..\..\SYSTEM\usart
+-ID:\Software\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+-ID:\Software\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="531" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o ..\..\output\system_stm32f10x.o --omf_browse ..\..\output\system_stm32f10x.crf --depend ..\..\output\system_stm32f10x.d --feedback "..\..\Output\USART.fed" "..\..\Libraries\CMSIS\system_stm32f10x.c"
